@@ -44,3 +44,12 @@ for (let i = 0; i < 5; i++) {
 
 let template_string = `Der textInhalt inhalt ist ${textInhalt}`;
 console.log("Template string: ", template_string);
+
+//funktionen
+function sayHi(text) {
+    console.log(text);
+}
+
+//Datum
+const tag = new Date();
+tag.getDay();
